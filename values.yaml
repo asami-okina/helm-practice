@@ -1,0 +1,11 @@
+replicaCount: 2
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "1.21"
+
+redis:
+  enabled: true
+
+service:
+  type: ClusterIP

@@ -1,0 +1,6 @@
+dependencies:
+- name: redis
+  repository: file://charts/redis
+  version: 0.1.0
+digest: sha256:4bf61a4e32a9b3b11ff8bdd16203d6e0d75750e8d04b2ae443b5b95a494a5a73
+generated: "2024-10-02T13:39:59.22905+09:00"

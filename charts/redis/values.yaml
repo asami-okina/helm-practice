@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: redis
+  pullPolicy: IfNotPresent
+  tag: "6.2"
+
+service:
+  type: ClusterIP
